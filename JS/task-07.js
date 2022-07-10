@@ -1,7 +1,7 @@
 const rangeEl = document.querySelector('#font-size-control')
 const textEl = document.querySelector('#text')
 
-const onChangeSize = event => {
+const onChangeSize = () => {
     textEl.style.fontSize = `${rangeEl.value}px`;
 }
 

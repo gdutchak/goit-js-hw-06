@@ -1,7 +1,7 @@
 const inputEl = document.querySelector('#validation-input')
 const textLength = inputEl.dataset.length
 
-const onControlLength = event => {
+const onControlLength = () => {
     if (inputEl.value.length >= textLength) {
         inputEl.classList.add('valid')
     }

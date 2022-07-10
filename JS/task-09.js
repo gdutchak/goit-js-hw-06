@@ -5,7 +5,7 @@ const bodyEl = document.querySelector('body')
 const colorEl = document.querySelector('.color')
 const btnColorEl = document.querySelector('.change-color')
 
-const onChangeColor = event => {
+const onChangeColor = () => {
   const color = bodyEl.style.backgroundColor = getRandomHexColor();
   colorEl.textContent = color
 }
