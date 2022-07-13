@@ -10,6 +10,7 @@ function onControlForm(event) {
 
     if (email.value === "" || password.value === "") {
         alert("Please fill in all the fields!");
+        return
     }
     const formData = {
         Email: email.value,
